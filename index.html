@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AkaStore — Discover the Best AI Tools of 2025</title>
+  <meta name="description" content="AkaStore is the #1 AI Tools Directory. Discover, compare, and find the best AI tools for writing, coding, image generation, video, and more. Updated daily." />
+  <meta name="keywords" content="AI tools, best AI tools 2025, AI directory, ChatGPT alternatives, AI image generator, AI writing tools, AI video tools" />
+  <meta name="author" content="AkaStore" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="AkaStore — Discover the Best AI Tools of 2025" />
+  <meta property="og:description" content="Find, compare, and use the best AI tools. 38+ tools across 8 categories — all in one place." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://akastore.site" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="AkaStore — Best AI Tools Directory 2025" />
+  <meta name="twitter:description" content="Discover 38+ curated AI tools for writing, coding, image, video, audio and more." />
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://akastore.site" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Preconnect Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+</head>
+<body>
+
+  <!-- ============================================
+       NAVIGATION
+       ============================================ -->
+  <nav class="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="/" class="nav-logo" id="logo-link">
+        <div class="logo-icon">🤖</div>
+        <div class="logo-text">Aka<span>Store</span></div>
+      </a>
+
+      <div class="nav-search">
+        <span class="nav-search-icon">🔍</span>
+        <input
+          type="search"
+          id="nav-search-input"
+          class="search-input"
+          placeholder="Search 38+ AI tools..."
+          aria-label="Search AI tools"
+          autocomplete="off"
+        />
+      </div>
+
+      <div class="nav-actions">
+        <a href="#submit" class="btn-nav btn-ghost" id="submit-tool-btn">+ Submit Tool</a>
+        <a href="#newsletter" class="btn-nav btn-primary" id="subscribe-btn">🔔 Subscribe</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================================
+       HERO SECTION
+       ============================================ -->
+  <section class="hero" id="hero" aria-label="Hero section">
+    <div class="hero-bg">
+      <div class="hero-orb hero-orb-1"></div>
+      <div class="hero-orb hero-orb-2"></div>
+      <div class="hero-orb hero-orb-3"></div>
+      <div class="hero-grid"></div>
+    </div>
+
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        Updated Weekly · 38+ Curated AI Tools
+      </div>
+
+      <h1>
+        Find the Perfect
+        <span class="line2">AI Tool for You</span>
+      </h1>
+
+      <p class="hero-subtitle">
+        Your ultimate directory of the best AI tools in 2025.
+        Discover, compare, and unlock AI-powered productivity — for free.
+      </p>
+
+      <form class="hero-search" id="hero-search-form" role="search" aria-label="Hero search">
+        <input
+          type="search"
+          id="hero-search-input"
+          class="search-input"
+          placeholder="Try: 'AI video generator', 'free writing tool', 'image AI'..."
+          aria-label="Search AI tools"
+          autocomplete="off"
+        />
+        <button type="submit" class="hero-search-btn" id="hero-search-btn" aria-label="Search">
+          🔍 Search Tools
+        </button>
+      </form>
+
+      <div class="hero-stats" aria-label="Website statistics">
+        <div class="stat-item">
+          <div class="stat-number" data-target="38" data-suffix="+">0+</div>
+          <div class="stat-label">AI Tools</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="8" data-suffix="">0</div>
+          <div class="stat-label">Categories</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="50000" data-suffix="+">0+</div>
+          <div class="stat-label">Monthly Users</div>
+        </div>
+        <div class="stat-item">
+          <div class="stat-number" data-target="100" data-suffix="%">0%</div>
+          <div class="stat-label">Free to Browse</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       AD BANNER TOP (Monetag / AdSense Zone)
+       ============================================ -->
+  <div class="ad-zone-banner" aria-label="Advertisement">
+    <div class="ad-zone-banner-inner">
+      <!-- MONETAG / ADSENSE BANNER 728x90 — PASTE SCRIPT HERE -->
+      Advertisement · 728×90
+    </div>
+  </div>
+
+  <!-- ============================================
+       CATEGORY FILTER TABS
+       ============================================ -->
+  <section class="categories-section" id="categories" aria-label="Tool categories">
+    <div class="categories-inner">
+      <div class="section-label">Browse by Category</div>
+      <div class="category-tabs" id="category-tabs" role="tablist" aria-label="Filter by category">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FEATURED TOOLS
+       ============================================ -->
+  <section class="featured-section" id="featured" aria-label="Featured AI tools">
+    <div class="featured-inner">
+      <div class="section-header">
+        <h2 class="section-title">
+          🔥 Featured Tools
+        </h2>
+        <a href="#tools-section" class="btn-nav btn-ghost" id="view-all-btn" style="font-size:13px">View All →</a>
+      </div>
+      <div class="featured-grid" id="featured-grid" role="list" aria-label="Featured AI tools">
+        <!-- Rendered by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       MAIN: SIDEBAR + TOOLS GRID
+       ============================================ -->
+  <section class="main-section" id="tools-section" aria-label="All AI tools">
+    <div class="main-inner">
+
+      <!-- SIDEBAR -->
+      <aside class="sidebar" role="complementary" aria-label="Filters and featured tools">
+
+        <!-- Filter Card -->
+        <div class="sidebar-card" id="filter-card">
+          <div class="sidebar-title">⚙️ Filter Tools</div>
+
+          <div class="filter-group">
+            <span class="filter-label">Pricing</span>
+            <div class="filter-options">
+              <label class="filter-option">
+                <input type="checkbox" class="pricing-filter" value="Free" id="filter-free" />
+                <span>Free</span>
+                <span class="filter-option-count">3</span>
+              </label>
+              <label class="filter-option">
+                <input type="checkbox" class="pricing-filter" value="Freemium" id="filter-freemium" />
+                <span>Freemium</span>
+                <span class="filter-option-count">21</span>
+              </label>
+              <label class="filter-option">
+                <input type="checkbox" class="pricing-filter" value="Paid" id="filter-paid" />
+                <span>Paid</span>
+                <span class="filter-option-count">14</span>
+              </label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sponsored / Hot Picks -->
+        <div class="sidebar-card" id="sponsored-card">
+          <div class="sidebar-title">⭐ Hot Picks</div>
+          <div id="sponsored-tools">
+            <!-- Rendered by JS -->
+          </div>
+        </div>
+
+        <!-- Sidebar Ad Zone (Monetag 300x250) -->
+        <div class="sidebar-ad" role="complementary" aria-label="Advertisement">
+          <!-- MONETAG / ADSENSE 300×250 — PASTE SCRIPT HERE -->
+          Ad · 300×250
+        </div>
+
+        <!-- Sidebar Newsletter -->
+        <div class="newsletter-sidebar" id="sidebar-newsletter">
+          <h4>🚀 Stay Updated</h4>
+          <p>Get weekly roundups of the best new AI tools, directly to your inbox.</p>
+          <form class="newsletter-input-wrap newsletter-form-el" id="sidebar-newsletter-form" aria-label="Newsletter signup">
+            <input type="email" id="sidebar-email-input" placeholder="your@email.com" required aria-label="Email address" />
+            <button type="submit" id="sidebar-subscribe-btn">Subscribe Free →</button>
+          </form>
+        </div>
+
+      </aside>
+
+      <!-- TOOLS GRID -->
+      <div class="tools-grid-section">
+        <div class="tools-toolbar">
+          <div class="results-info" id="results-count" aria-live="polite">
+            Showing <strong>12</strong> of <strong>38</strong> tools
+          </div>
+          <select class="sort-select" id="sort-select" aria-label="Sort tools">
+            <option value="featured">⭐ Featured First</option>
+            <option value="rating">★ Highest Rated</option>
+            <option value="reviews">💬 Most Reviewed</option>
+            <option value="name">🔤 A–Z Name</option>
+          </select>
+        </div>
+
+        <div class="tools-grid" id="tools-grid" role="list" aria-label="AI tools list">
+          <!-- Rendered by JS -->
+        </div>
+
+        <div class="load-more-wrap" id="load-more-wrap">
+          <button class="btn-load-more" id="load-more-btn" aria-label="Load more tools">
+            Load More Tools ↓
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================
+       AD BANNER MIDDLE (Monetag / AdSense Zone)
+       ============================================ -->
+  <div class="ad-zone-banner" aria-label="Advertisement">
+    <div class="ad-zone-banner-inner">
+      <!-- MONETAG / ADSENSE BANNER 728x90 — PASTE SCRIPT HERE -->
+      Advertisement · 728×90
+    </div>
+  </div>
+
+  <!-- ============================================
+       NEWSLETTER SECTION
+       ============================================ -->
+  <section class="newsletter-section" id="newsletter" aria-label="Newsletter signup">
+    <div class="newsletter-bg"></div>
+    <div class="newsletter-content">
+      <h2>Never Miss a New AI Tool 🚀</h2>
+      <p>
+        Join <strong>50,000+</strong> AI enthusiasts who get our weekly curated list of the best new AI tools, deals, and tutorials — completely free.
+      </p>
+      <form class="newsletter-form newsletter-form-el" id="main-newsletter-form" aria-label="Main newsletter signup">
+        <input
+          type="email"
+          id="main-email-input"
+          placeholder="Enter your email address..."
+          required
+          aria-label="Email address"
+        />
+        <button type="submit" id="main-subscribe-btn">Subscribe Free →</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer role="contentinfo">
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="logo-text" style="font-family:'Syne',sans-serif;font-size:22px;font-weight:800;color:white;margin-bottom:12px;display:block">
+            Aka<span style="background:linear-gradient(90deg,#a855f7,#06b6d4);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">Store</span>
+          </div>
+          <p class="footer-desc">
+            The world's best AI tools directory. We curate, review, and rank hundreds of AI tools so you don't have to. Updated weekly.
+          </p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Twitter">𝕏</a>
+            <a href="#" class="social-link" aria-label="YouTube">▶</a>
+            <a href="#" class="social-link" aria-label="Telegram">✈</a>
+            <a href="#" class="social-link" aria-label="Instagram">📷</a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Categories</h4>
+          <ul class="footer-links">
+            <li><a href="#" id="footer-cat-chatbot">🤖 AI Chatbots</a></li>
+            <li><a href="#" id="footer-cat-image">🎨 Image AI</a></li>
+            <li><a href="#" id="footer-cat-video">🎬 Video AI</a></li>
+            <li><a href="#" id="footer-cat-writing">✍️ Writing</a></li>
+            <li><a href="#" id="footer-cat-coding">💻 Coding</a></li>
+            <li><a href="#" id="footer-cat-audio">🎵 Audio</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Resources</h4>
+          <ul class="footer-links">
+            <li><a href="#" id="footer-blog">AI Blog</a></li>
+            <li><a href="#" id="footer-compare">Compare Tools</a></li>
+            <li><a href="#" id="footer-guides">Guides & Tutorials</a></li>
+            <li><a href="#" id="footer-newsletter">Newsletter</a></li>
+            <li><a href="#" id="footer-submit">Submit a Tool</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul class="footer-links">
+            <li><a href="#" id="footer-about">About AkaStore</a></li>
+            <li><a href="#" id="footer-advertise">Advertise</a></li>
+            <li><a href="#" id="footer-affiliate">Affiliate Program</a></li>
+            <li><a href="#" id="footer-contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          © 2025 <span>AkaStore.site</span> — The AI Tools Marketplace. All rights reserved.
+        </div>
+        <div class="footer-legal">
+          <a href="#" id="footer-privacy">Privacy Policy</a>
+          <a href="#" id="footer-terms">Terms of Use</a>
+          <a href="#" id="footer-disclosure">Affiliate Disclosure</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast" id="toast" role="alert" aria-live="assertive"></div>
+
+  <!-- ============================================
+       SCRIPTS
+       ============================================ -->
+  <script src="js/data.js"></script>
+  <script src="js/app.js"></script>
+
+  <!-- Structured Data / Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "AkaStore",
+    "description": "The best AI Tools Directory — discover, compare, and use top AI tools for writing, coding, image, video, and more.",
+    "url": "https://akastore.site",
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://akastore.site/?q={search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  }
+  </script>
+
+</body>
+</html>
